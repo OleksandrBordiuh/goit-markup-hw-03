@@ -265,11 +265,12 @@ a {
 
 .services .link {
   display: inline-block;
+  border: 2px solid transparent;
 }
 
 .services .link:hover,
 .services .link:focus {
-  border: solid;
+  border: 2px solid darkblue;
 }
 
 .services-name {
@@ -528,7 +529,7 @@ a {
 }
 
 .work-examples .item {
-  border: 1px solid #eeeeee;
+  border: 2px solid #eeeeee;
   border-radius: 5px;
 
   width: calc((100% - 2 * 30px) / 3);
@@ -547,7 +548,7 @@ a {
 
 .work-examples .item:hover,
 .work-examples .item:focus {
-  border: solid;
+  border: 2px solid darkblue;
 }
 
 .project {
